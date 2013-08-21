@@ -1,0 +1,38 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.imageCont{
+	float: left;
+	border: 2px solid #eee;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.imageCont:first-of-type{
+	clear: left;
+}
+}
+.imageCont p {
+	text-align: center;
+}
+.albumCont{
+	clear: left;
+	border: 2px solid #eee;
+	border-radius: 5px;
+	padding: 30px;
+}
+.albumCont p {
+	margin-left: 50px;
+	display: inline;
+	float: left;
+}
+#showImgZoomed{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	border: 2px solid #eee;
+}

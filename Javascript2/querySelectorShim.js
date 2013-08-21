@@ -1,0 +1,36 @@
+(function(){
+	"use stric";
+	
+	if (!document.querySelector) {
+		querySelectorShim();
+	}
+
+	var theDiv = document.querySelector("div");
+	theDiv.innerHTML = "some text in the selected div";
+	
+	var thePar = document.querySelectorAll(".par"); // p.par dont work (i'm not INDIAN) :)
+	
+	for(var i=0; i<thePar.length;i++)
+	{
+		thePar[i].innerHTML = "some text in the selected paragraph";
+	}
+
+	function querySelectorShim()
+	{
+		document.querySelector = function(selector){
+			switch (selector.charAt(0)) {
+				case ".": return document.getElementsByClassName(selector.substring(1))[0];
+				case "#": return document.getElementById(selector.substring(1));
+				default: return document.getElementsByTagName(selector)[0];
+			}
+		};
+
+		document.querySelectorAll = function(selector){
+			switch (selector.charAt(0)) {
+				case ".": return document.getElementsByClassName(selector.substring(1));
+				case "#": return document.getElementById(selector.substring(1));
+				default: return document.getElementsByTagName(selector);
+			}
+		};
+	}
+})();

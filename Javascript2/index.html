@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script type="text/javascript" src="exam.js"></script>
+	<script type="text/javascript" src="querySelector.js"></script>
+	<script type="text/javascript" src="local-storage-extensions.js"></script>
+</head>
+<body>
+	<div id="image-gallery-holder">
+		<div id="showImgZoomed">
+		</div>
+	</div>
+	<script>
+	var gallery = controls.getImageGallery("#image-gallery-holder");
+	gallery.addImage("JS ninja<br>asd", "images/telerik.png");
+	gallery.addImage("JS ninja", "images/example.jpg");
+	gallery.addImage("JS ninja", "images/telerik.png");
+	gallery.addImage("JS ninja", "images/telerik.png");
+	var ninjasAlbum = gallery.addAlbum("Ninja");
+	ninjasAlbum.addImage("c", "images/telerik.png");
+	ninjasAlbum.addImage("b", "images/telerik.png");
+	ninjasAlbum.addImage("a", "images/telerik.png");
+	var kidsAlbum = ninjasAlbum.addAlbum("Kids Ninjas");
+	kidsAlbum.addImage("Kids Ninja", "images/telerik.png");
+	kidsAlbum.addImage("Kids Ninja", "images/telerik.png");
+	var otherAlbum = kidsAlbum.addAlbum("Other Ninjas");
+	otherAlbum.addImage("Other Ninja", "images/telerik.png");
+	</script>
+</body>
+</html>

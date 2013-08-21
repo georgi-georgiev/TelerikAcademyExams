@@ -1,0 +1,10 @@
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\SimpleSearchForBook.exe.config
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\SimpleSearchForBook.exe
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\SimpleSearchForBook.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\Bookstore.Data.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\EntityFramework.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\Bookstore.Data.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\bin\Debug\EntityFramework.xml
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\obj\Debug\SimpleSearchForBook.csprojResolveAssemblyReference.cache
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\obj\Debug\SimpleSearchForBook.exe
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleSearchForBook\obj\Debug\SimpleSearchForBook.pdb
