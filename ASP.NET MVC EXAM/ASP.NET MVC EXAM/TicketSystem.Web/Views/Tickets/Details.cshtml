@@ -1,0 +1,56 @@
+﻿@model TicketSystem.Web.Models.TicketDetailsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+<h2>@Model.Title</h2>
+<h3>Category: @Model.Category</h3>
+
+<div class="row">
+    <div class="span4">
+        <p><strong>Author: </strong> @Model.Author</p>
+        <p><strong>Priority: </strong> @Model.Priority</p>
+    </div>
+    @if (!string.IsNullOrEmpty(Model.ScreenshotURL))
+    {
+        <div class="span4">
+            <img src="@Model.ScreenshotURL" alt="" />
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(Model.Description))
+    {
+        <div class="span4">
+            <strong>Description: </strong> @Model.Description
+        </div>
+    }
+</div>
+<div id="comments">
+    @foreach (var comment in Model.Comments)
+    {
+        @Html.Partial("_CommentPartial", comment)
+    }
+</div>
+@if (User.Identity.IsAuthenticated)
+{
+    using (Ajax.BeginForm("CreateComment", new AjaxOptions { HttpMethod = "Post", InsertionMode = InsertionMode.InsertAfter, UpdateTargetId = "comments", OnFailure = "createCommentFailure", OnSuccess = "createCommentSuccess" }))
+    {
+        @Html.Hidden("TicketId", Model.Id)
+        @Html.TextArea("Content")
+        @Html.AntiForgeryToken()
+        <br />
+        <input type="submit" class="btn" value="Submit Comment" />
+    }
+}
+@section scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function createCommentSuccess() {
+            $("#Content").val("");
+        }
+
+        function createCommentFailure(data) {
+            console.log("error");
+            console.log(data);
+        }
+    </script>
+}

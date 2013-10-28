@@ -1,0 +1,45 @@
+﻿@model IEnumerable<TicketSystem.Web.Models.CategoryViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@(Html
+    .Kendo()
+    .Grid(Model)
+    .Name("AdministrationCategories")
+    .Pageable()
+    .Sortable()
+    .ToolBar(t =>
+        {
+            t.Create();
+        })
+    .Editable(edit =>
+            {
+                edit.Mode(GridEditMode.PopUp);
+            })
+    .Filterable()
+    .Columns(col =>
+            {
+                col.Bound(m => m.Name);
+                col.Command(com =>
+                            {
+                                com.Edit();
+                                com.Destroy();
+                            }).Title("Commands");
+            })
+    .DataSource(data =>
+            {
+                data.Ajax()
+                    .ServerOperation(true)
+                    .PageSize(5)
+                    .Model(m =>
+                        {
+                            m.Id("Id");
+                            m.Field(com => com.Id).Editable(false);
+                        })
+                    .Create("CreateCategory", "AdminCategories")
+                    .Read("ReadCategories", "AdminCategories")
+                    .Update("UpdateCategory", "AdminCategories")
+                    .Destroy("DestroyCategory", "AdminCategories");
+            }))

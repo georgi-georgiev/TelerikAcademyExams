@@ -1,0 +1,10 @@
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\SearchLogs.exe.config
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\obj\Debug\SearchLogs.csprojResolveAssemblyReference.cache
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\SearchLogs.exe
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\SearchLogs.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\Bookstore.Data.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\EntityFramework.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\Bookstore.Data.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\bin\Debug\EntityFramework.xml
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\obj\Debug\SearchLogs.exe
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SearchLogs\obj\Debug\SearchLogs.pdb

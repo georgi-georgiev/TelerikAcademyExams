@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using(Html.BeginForm("Search", "Tickets"))
+{
+    @:search by category
+    @(Html.Kendo()
+     .DropDownList()
+     .Name("Category")
+     .DataTextField("CategoryName")
+     .DataValueField("CategoryId")
+     .OptionLabel("Select category")
+     .DataSource(d =>
+     {
+         d.Read(r =>
+             {
+                 r.Action("ReadCategories", "Tickets");
+             });
+         d.ServerFiltering(true);
+     }))
+    <br/>
+    <input type="submit" class="btn" value="Search" />
+}
+@(Html.Kendo()
+        .ListView<TicketSystem.Web.Models.ListTicketsViewModel>()
+        .Name("TicketsLists")
+        .ClientTemplateId("ticket-template")
+        .TagName("div")
+        .Pageable()
+        .DataSource(d =>
+        {
+            d.Read(r =>
+                {
+                    r.Action("Read", "Tickets");
+                });
+            d.ServerOperation(true);
+            d.PageSize(5);
+        }))
+
+<script id="ticket-template" type="text/x-kendo-template">
+    <div class="row-fluid">
+        <div class="span3">
+            <a href="Tickets/Details/#: Id#">#: Title #</a>
+        </div>
+        <div class="span3">
+            #: Category #
+        </div>
+        <div class="span3">
+            #: Author #
+        </div>
+        <div class="span3">
+            #: Priority #
+        </div>
+    </div>
+</script>

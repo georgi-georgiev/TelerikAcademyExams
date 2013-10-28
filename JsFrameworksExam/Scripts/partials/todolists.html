@@ -1,0 +1,13 @@
+﻿<h1>Todos Lists</h1>
+<ul data-template="todo-template" data-bind="source: todosList" class="k-group">
+</ul>
+
+<script type="text/x-kendo-template" id="todo-template">
+    <a href="\#/todo-list/#=id#">
+    <li class="k-item">
+        <span data-bind="text: title"></span>
+    </li>
+    </a>
+</script>
+
+<a class="k-link" href="#/todoCreate">create todo</a>

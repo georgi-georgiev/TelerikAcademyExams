@@ -1,0 +1,21 @@
+﻿
+<ul data-template="todo-template" data-bind="source: todosList">
+</ul>
+
+<script type="text/x-kendo-template" id="todo-template">
+        <h3><span data-bind="text: title"></span></h3>
+    Todos:
+    # for (var i = 0; i < todos.length; i++) { #
+             <li><span>#= todos[i].text #</span>
+
+                #if(todos[i].isDone){#
+                <span>done</span>
+                #}else{#
+                    <span>not done</span>
+                #}#
+
+                <a href="\#/changeDone/#=todos[i].id#">change</a>
+            </li>
+        # } #
+    <a class="k-link" href="\#/todoForList/#=id#">create todo for list</a>
+</script>

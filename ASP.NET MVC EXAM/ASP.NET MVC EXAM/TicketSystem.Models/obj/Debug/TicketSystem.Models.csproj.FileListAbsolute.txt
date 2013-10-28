@@ -1,0 +1,14 @@
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\TicketSystem.Models.dll.config
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\TicketSystem.Models.dll
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\TicketSystem.Models.pdb
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\EntityFramework.dll
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\EntityFramework.xml
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\obj\Debug\TicketSystem.Models.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\obj\Debug\TicketSystem.Models.dll
+C:\Users\Georgi\Desktop\ASP.NET MVC EXAM\ASP.NET MVC EXAM\TicketSystem.Models\obj\Debug\TicketSystem.Models.pdb

@@ -1,0 +1,2 @@
+Remove attributes from AdministrationRole in AdminCategoriesController and AdminCommentsController
+Remove verification from AdministrationRole in Layout View

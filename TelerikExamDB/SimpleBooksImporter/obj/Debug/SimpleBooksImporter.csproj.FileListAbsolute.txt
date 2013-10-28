@@ -1,0 +1,10 @@
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\SimpleBooksImporter.exe.config
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\SimpleBooksImporter.exe
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\SimpleBooksImporter.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\Bookstore.Data.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\Bookstore.Data.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\obj\Debug\SimpleBooksImporter.csprojResolveAssemblyReference.cache
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\obj\Debug\SimpleBooksImporter.exe
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\obj\Debug\SimpleBooksImporter.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\EntityFramework.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\SimpleBooksImporter\bin\Debug\EntityFramework.xml

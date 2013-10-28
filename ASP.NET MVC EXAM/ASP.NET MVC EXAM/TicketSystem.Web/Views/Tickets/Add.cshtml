@@ -1,0 +1,60 @@
+﻿@model TicketSystem.Web.Models.CreateTicketViewModel
+
+@{
+    ViewBag.Title = "Add";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset class="form-horizontal">
+        <legend>Create a new ticket.</legend>
+        <div class="control-group">
+            @Html.LabelFor(m => m.CategoryId, new { @class = "control-label" })
+            <div class="controls">
+                @Html.DropDownListFor(m => m.CategoryId, (IEnumerable<SelectListItem>)ViewBag.Categories)
+                @Html.ValidationMessage("CustomErrorCategory")
+            </div>
+
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(m => m.Title, new { @class = "control-label" })
+            <div class="controls">
+                @Html.TextBoxFor(m => m.Title)
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(m => m.Priority, new { @class = "control-label" })
+            <div class="controls">
+                <select name="Priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium" selected>Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+            @Html.ValidationMessage("CustomErrorPriority")
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(m => m.ScreenshotURL, new { @class = "control-label" })
+            <div class="controls">
+                @Html.TextBoxFor(m => m.ScreenshotURL)
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(m => m.Description, new { @class = "control-label" })
+            <div class="controls">
+                @Html.TextAreaFor(m => m.Description)
+            </div>
+        </div>
+        <div class="form-actions no-color">
+            <input type="submit" value="Create" class="btn" />
+        </div>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

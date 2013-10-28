@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Deque</name>
+    </assembly>
+    <members>
+        <member name="T:Deque.IDeque`1">
+            <summary>
+            Represent a collection of elements which can be accessed
+            from the begin and from the end
+            </summary>
+            <typeparam name="T">type parameter is a placeholder
+            for a specific type that a client specifies
+            when they instantiate a variable of the generic type.</typeparam>
+        </member>
+        <member name="M:Deque.IDeque`1.PushFirst(`0)">
+            <summary>
+            Insert element at the begining of the deque.
+            </summary>
+            <param name="element">Element of specific type
+            from instance of interface which you want to insert</param>
+        </member>
+        <member name="M:Deque.IDeque`1.PushLast(`0)">
+            <summary>
+            Insert element at the end of the deque.
+            </summary>
+            <param name="element">Element which you want to insert</param>
+        </member>
+        <member name="M:Deque.IDeque`1.PopFirst">
+            <summary>
+            Get and remove first element from the deque.
+            </summary>
+            <returns>Element at first position from the deque.</returns>
+        </member>
+        <member name="M:Deque.IDeque`1.PopLast">
+            <summary>
+            Get and remove last element from the deque.
+            </summary>
+            <returns>Element at last position from the deque.</returns>
+        </member>
+        <member name="M:Deque.IDeque`1.PeekFirst">
+            <summary>
+            Get first element from the deque.
+            </summary>
+            <returns>Element at first position from the deque.</returns>
+        </member>
+        <member name="M:Deque.IDeque`1.PeekLast">
+            <summary>
+            Get last element from the deque.
+            </summary>
+            <returns>Element at last position from the deque.</returns>
+        </member>
+        <member name="M:Deque.IDeque`1.Clear">
+            <summary>
+            Remove all elements
+            </summary>
+        </member>
+        <member name="M:Deque.IDeque`1.Contains(`0)">
+            <summary>
+            Check if deque contains element
+            </summary>
+            <param name="element">Element which you want to check.</param>
+            <returns>True if the deque contains the element,
+            False if the deque did not contains the element</returns>
+        </member>
+        <member name="P:Deque.IDeque`1.Count">
+            <summary>
+            Get count of elements in deque.
+            </summary>
+            <returns>Count of elements in deque.</returns>
+        </member>
+        <member name="T:Deque.Deque`1">
+            <summary>
+            Represent a collection of elements which can be accessed
+            from the begin and from the end
+            </summary>
+            <typeparam name="T">type parameter is a placeholder
+            for a specific type that a client specifies
+            when they instantiate a variable of the generic type.</typeparam>
+        </member>
+        <member name="M:Deque.Deque`1.#ctor">
+            <summary>
+            Initilize a new instace of type Deque
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\bin\Debug\Deque.exe.config
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\obj\Debug\Deque.csprojResolveAssemblyReference.cache
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\bin\Debug\Deque.exe
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\bin\Debug\Deque.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\obj\Debug\Deque.exe
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\obj\Debug\Deque.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\SupportExam\Deque\bin\Debug\Deque.XML

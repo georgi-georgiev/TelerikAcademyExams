@@ -1,0 +1,8 @@
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\bin\Debug\Bookstore.Data.dll.config
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\bin\Debug\Bookstore.Data.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\bin\Debug\Bookstore.Data.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\bin\Debug\EntityFramework.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\bin\Debug\EntityFramework.xml
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\obj\Debug\Bookstore.Data.csprojResolveAssemblyReference.cache
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\obj\Debug\Bookstore.Data.dll
+c:\users\georgi\documents\visual studio 2012\Projects\Bookstore\Bookstore.Data\obj\Debug\Bookstore.Data.pdb

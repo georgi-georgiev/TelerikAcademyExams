@@ -1,0 +1,142 @@
+﻿a:link, a:visited {
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #21263e;
+}
+li {
+	list-style: none;
+}
+label {
+	display: block;
+	color: #808080;
+	font-weight:600;
+}
+input {
+	width: 250px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid #d573d9;
+}
+button {
+	padding: 10px 15px;
+	background: #d573d9;
+	border: 0;
+	border-radius: 5px;
+	color: #0ff;
+	font-size: 18px;
+	float: right;
+	margin-top: 15px;
+}
+#header {
+	margin-bottom: 20px;
+}
+#header:after {
+	clear: both;
+	display: block;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+}
+#game-container {
+	padding: 10px;
+}
+#signup {
+	display: block;
+	width: 255px;
+	margin: 100px auto;
+	border: 1px solid #808080;
+	padding: 20px;
+}
+#login-form:after,#register-form:after {
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	display: block;
+}
+#register, #login {
+	margin-top: 20px;
+	float: left;
+}
+#user-nickname {
+	float: right;
+	font-weight: 600;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+.error {
+	font-weight: 600;
+	color: #ff0000;
+}
+#create-game-form {
+	width: 250px;
+}
+#open-games {
+	float: left;
+	width: 300px;
+}
+#active-games {
+	float: right;
+	width: 300px;
+}
+#open-game-form input {
+	width: 150px;
+}
+#create-game-form button, #open-game-form button {
+	float: none;
+}
+#active-games button {
+	margin-top: 0;
+	float: none;
+}
+#active-games:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+#unread-messages {
+	width: 234px;
+	float: left;
+}
+#unread-messages li {
+	color: #b6ff00;
+}
+#all-messages {
+	width: 234px;
+	float: left;
+}
+#game-field {
+	width: 468px;
+	border: 1px solid black;
+	float: left;
+}
+.game-field-box,.game-field-box-warrior-red, .game-field-box-ranger-red, .game-field-box-ranger-blue, .game-field-box-warrior-blue {
+	width: 50px;
+	height: 50px;
+	float: left;
+	border: 1px solid black;
+}
+.game-field-box {
+	background: #e2e2e2;
+}
+.game-field-box-ranger-red, .game-field-box-warrior-red {
+	background-color: #ff0000;
+}
+.game-field-box-ranger-blue, .game-field-box-warrior-blue {
+	background-color: #0000ff;
+}
+.game-field-box-ranger-red, .game-field-box-ranger-blue {
+	background-image: url("/Images/ranger.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.game-field-box-warrior-red, .game-field-box-warrior-blue {
+	background-image: url("/Images/warrior.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#score-board {
+	float: left;
+}

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<TicketSystem.Web.Models.ListTicketsViewModel>
+@{
+    ViewBag.Title = "Search";
+}
+@if (Model.Count() > 0)
+{
+    if (Model.ElementAt(0).Title != null)
+    {
+        <div class="row">
+            <div class="span3"><strong>Title</strong></div>
+            <div class="span3"><strong>Category</strong></div>
+            <div class="span3"><strong>Author</strong></div>
+            <div class="span3"><strong>Priority</strong></div>
+
+            @foreach (var ticket in Model)
+            {
+            <div class="span3">@ticket.Title</div>
+            <div class="span3">@ticket.Category</div>
+            <div class="span3">@ticket.Author</div>
+            <div class="span3">@ticket.Priority</div>
+            }
+
+        </div>
+    }
+}

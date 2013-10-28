@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\Battle-Game\BattleGame\BattleGame.Client\bin\BattleGame.Client.dll
+C:\Users\Georgi\Desktop\Battle-Game\BattleGame\BattleGame.Client\bin\BattleGame.Client.pdb
+C:\Users\Georgi\Desktop\Battle-Game\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Desktop\Battle-Game\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.dll
+C:\Users\Georgi\Desktop\Battle-Game\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.pdb

@@ -1,0 +1,5 @@
+c:\users\georgi\documents\visual studio 2012\Projects\BloggingSystem.Models\BloggingSystem.Models\bin\Debug\BloggingSystem.Models.dll
+c:\users\georgi\documents\visual studio 2012\Projects\BloggingSystem.Models\BloggingSystem.Models\bin\Debug\BloggingSystem.Models.pdb
+c:\users\georgi\documents\visual studio 2012\Projects\BloggingSystem.Models\BloggingSystem.Models\obj\Debug\BloggingSystem.Models.csprojResolveAssemblyReference.cache
+c:\users\georgi\documents\visual studio 2012\Projects\BloggingSystem.Models\BloggingSystem.Models\obj\Debug\BloggingSystem.Models.dll
+c:\users\georgi\documents\visual studio 2012\Projects\BloggingSystem.Models\BloggingSystem.Models\obj\Debug\BloggingSystem.Models.pdb

@@ -1,0 +1,22 @@
+﻿<a href="#/appointments/comming">Comming</a>
+<a href="#/appointments/today">Today</a>
+<a href="#/appointments/current">Current</a>
+<input type="text" id="byDate" value="dd-mm-yy" />
+<a href="#/appointments/byDate">By date</a>
+<h1>appointments</h1>
+<ul data-template="appointment-template" data-bind="source: appointments">
+</ul>
+
+<script type="text/x-kendo-template" id="appointment-template">
+    <li>
+        <span data-bind="text: subject"></span>
+        <span data-bind="text: description"></span>
+        <span data-bind="text: createdAt"></span>
+        <span data-bind="text: appointmentDate"></span>
+        <span data-bind="text: duration"></span>
+        <span data-bind="text: state"></span>
+    </li>
+</script>
+
+
+<a class="k-link" href="#/appointmentsCreate">create appointment</a>

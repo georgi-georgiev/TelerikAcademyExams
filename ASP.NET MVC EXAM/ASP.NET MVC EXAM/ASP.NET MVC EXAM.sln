@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Data", "TicketSystem.Data\TicketSystem.Data.csproj", "{413B42BE-C4DE-44E1-A90D-530B4356750A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Models", "TicketSystem.Models\TicketSystem.Models.csproj", "{E1D22EE9-BF46-4086-8AD0-B6120A5DD13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystem.Web", "TicketSystem.Web\TicketSystem.Web.csproj", "{59374721-93B1-4AB4-87C6-2FB8013189BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{DA668EE5-066E-4A30-8C65-4DD972A2926F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Template\ASP.NET MVC Exam\External Libraries\Kendo.Mvc.dll = ..\..\Template\ASP.NET MVC Exam\External Libraries\Kendo.Mvc.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413B42BE-C4DE-44E1-A90D-530B4356750A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413B42BE-C4DE-44E1-A90D-530B4356750A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413B42BE-C4DE-44E1-A90D-530B4356750A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413B42BE-C4DE-44E1-A90D-530B4356750A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D22EE9-BF46-4086-8AD0-B6120A5DD13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D22EE9-BF46-4086-8AD0-B6120A5DD13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D22EE9-BF46-4086-8AD0-B6120A5DD13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D22EE9-BF46-4086-8AD0-B6120A5DD13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59374721-93B1-4AB4-87C6-2FB8013189BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59374721-93B1-4AB4-87C6-2FB8013189BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59374721-93B1-4AB4-87C6-2FB8013189BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59374721-93B1-4AB4-87C6-2FB8013189BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

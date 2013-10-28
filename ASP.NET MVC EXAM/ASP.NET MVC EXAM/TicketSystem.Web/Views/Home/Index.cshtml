@@ -1,0 +1,17 @@
+﻿@model  IEnumerable<TicketSystem.Web.Models.TicketViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    @foreach (var ticket in Model)
+    {
+        <div class="span4">
+            <h2>@ticket.Title</h2>
+            <p><strong>Category:</strong> @ticket.Category</p>
+            <p><strong>Author:</strong> @ticket.Author</p>
+            <p>@ticket.Comments comment(s)</p>
+            <p><a class="btn" href="/Tickets/Details/@ticket.Id">More detatils...</a></p>
+        </div>
+    }
+</div>
